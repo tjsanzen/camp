@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="icon.png" />
 
 
     <title>Bible Camp MN</title>
@@ -254,14 +254,16 @@ http://www.templatemo.com/tm-490-comila
             <div class="modal-content modal-popup">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="modal-title">Get Notified when Registration Opens!</h2>
+                    <h2 class="modal-title">How would you like to register?</h2>
                 </div>
-                <form action="https://formspree.io/camp@tjsanzen.net" method="post">
-                    <strong><input name="fullname" type="text" class="form-control" id="fullname" placeholder="Name">
-                    <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Email or Phone">
-                        <input name="submit" type="submit" class="form-control" id="submit" value="Notify Me!"></strong>
+
+                <form onsubmit="window.open('register/index.html')">
+                    <strong><input name="submit" type="button" class="form-control" id="submit" value="Online" onclick="window.open('register/index.html')"></strong>
+                    <strong><input name="submit" type="button" class="form-control" id="submit" value="Paper" onclick="window.open('2019.pdf')"></strong>
+                    <br>
+                    <br>
                 </form>
-                <strong><p style="color:white;">Registration isn't open yet, but leave your deets above and we'll let you know when it does!</p></strong>
+
             </div>
         </div>
     </div>
